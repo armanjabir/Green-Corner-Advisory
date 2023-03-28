@@ -1,0 +1,629 @@
+/* About css page starts from line no 257*/
+p
+{
+    font-size:18px;
+}
+*
+{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html
+{
+    transition:all 1s linear;
+}
+/* top head starts */
+.tophead
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    z-index:1;
+}
+
+@media only all and (max-width:991px)
+{
+    .tophead
+    {
+        display:none;
+    }
+} 
+
+
+.backgroundhead
+{
+    background-color:#fff;
+    padding-top:5px;
+    border-radius:0px 0px 20px 20px;
+    box-shadow: 0px 0px 10px white;
+
+}
+.backgroundhead ul li a
+{
+    font-size:13px;
+    font-weight:600;
+    line-height:20px;
+}
+.backgroundhead ul li .btn
+{
+    height:30px;
+    width: 60px;
+    border-radius:25px;
+}
+    
+
+/* top head ends */
+/* navbar starts */
+
+.navbar
+{
+    position:absolute;
+    top:60px;
+    left:0px;
+    right:0px;
+    z-index:5;
+}
+.navbar .dropdown:hover .dropdown-menu
+{
+    display:block;
+}
+
+@media only all and (max-width:991) {
+    .navbar
+    {
+        position:absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+        z-index:1;
+    }    
+    .collapse
+    {
+        background-color: rgb(194, 41, 41);
+        color:black;
+    }
+    }
+    @media all and (max-width:991px) {
+        .navbar-nav
+        {
+            background-color:gray;
+            color:black !important;
+        }
+        .navbar-nav .nav-item .nav-link
+        {
+            color:black;
+            padding-left: 10px;
+        }
+    }
+    #hire
+    {
+        border-radius: 20px;
+    }
+/* navbar ends */
+
+/* carousel  starts */
+
+      
+.carousel .carousel-caption
+{
+    top:40%;
+    left:10%;
+   text-align:left;
+}
+.carousel .casousel1-caption img
+{
+    top:10%;
+    left:0%;
+   bottom:50%;
+}
+/* marquee starts */
+marquee
+{
+    box-shadow: 0px 0px 2px 2px rgb(231, 228, 228);
+    height:50px;
+    line-height: 50px;
+    font-size:16px;
+}
+
+/* marquee ends */
+
+/* About section starts */
+.about img
+{
+    box-shadow: 0px 0px 5px rgb(202, 198, 198);
+    border-radius: 5px;
+}
+.about1
+{
+   background-color:#d3f5d2;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    color:rgb(90, 87, 84);
+}
+.about1:hover
+{
+    border-bottom: 3px solid green;
+   transform: translateY(-10px);
+}
+/* About section ends */
+/* why us section starts */
+.whysection
+{
+    background-color: rgb(246, 244, 244);
+}
+.whyus
+{
+background-color:white;
+border-radius: 10px;
+transition: all ease-in-out;
+transition-duration: 0.5s;
+}
+.whyus p
+{
+    font-size: 14px;
+    padding:20px;
+}
+.whyus:hover
+{   
+    border-bottom: 4px solid green;
+    transform: translateY(-10px);
+}
+/* why us section ends */
+
+/* who section starts */
+.img img
+{
+    border-radius: 10px; 
+    transition: all 1s ease-in-out;
+}
+.img img:hover
+{
+    border-bottom: 3px solid green;
+    transform: translateY(-10px);
+}
+.content
+{
+    background-color:#d3f5d2;
+    border-radius:10px;
+    
+    transition: all 1s ease-in-out;
+    border-bottom: 3px solid green; 
+}
+.content:hover
+{
+    border-bottom: 3px solid green;
+    transform: translateY(-10px);
+}
+/* who section ends */
+
+/* offer section starts */
+.offtersection
+{
+    background-color: rgb(247, 245, 245);
+}
+.offer
+{
+background-color:white;
+border-radius: 10px;
+transition: all 0.5s ease-in-out;
+margin-top:20px;
+position: relative;
+bottom: 0px;
+}
+.offer:hover
+{
+position: relative;
+bottom:10px;
+border-bottom: 3px solid green;
+}
+.icon
+{
+    font-size:30px;
+}
+.offer p
+{
+    font-size: 14px;
+    padding:20px;
+}
+/* offer section ends */
+/* work section starts */
+.work
+{
+    padding:10px;
+    border-radius: 13px;
+    background-color:#baf0b8;
+}
+.work p
+{
+    font-size: 14px;
+}
+/* work section ends */
+/* Client section starts */
+.Client
+{
+    background-color: rgb(237, 231, 231);
+}
+.slider1
+{
+    border-radius: 10px;
+    background-color:white;
+    margin-left: 20px;
+    margin-right:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    
+    
+}
+/* Client section ends */
+.content .info
+{
+border-top: 3px solid #1c751d;
+border-bottom: 3px solid #1c751d;
+padding: 30px;
+background: #fff;
+width: 100%;
+box-shadow: 0px 0px 5px 1px #cccccc85;
+border-radius: 10px;
+justify-content: last baseline;
+}
+*, ::after, ::after
+{
+    box-sizing: border-box;
+}
+/* Help section starts */
+.contact-info
+{
+    border:0px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius:10px;
+    border-top:4px solid green;
+    border-bottom:4px solid green;
+}
+#form1
+{
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    border-top:4px solid green;
+    border-bottom:4px solid green;
+}
+.input
+{
+    
+   height:40px;
+    width:250px;
+    border-radius: 60px;
+  
+}
+#textarea
+{
+    width:100%;
+    height:100px;
+    border-radius:20px;
+}
+#sub
+{
+    border:0px;
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+/* Help section ends */
+
+/* social icon */
+.icon1
+{
+    font-size: 25px;
+    color:white;
+    background-color: green;
+    height:40px;
+   width: 40px;
+    border-radius: 50%;
+    margin-left:3px;
+    padding-left:8px;
+    padding-top:8px;
+}
+.icon a
+{
+   margin-right:20px;
+    padding:10px 15px;
+    font-size:20px;
+    border:2px solid whitesmoke;
+    border-radius:50%;
+}
+.icon a:hover
+{
+    background-color:green;
+    color:white;
+}
+/* whatsapp icon  */
+.icon2{
+    width:60px;
+    height:60px;
+    font-size:40px;
+    border-radius:50%;
+    color:white;
+    padding-left:12px;
+    padding-top:10px;
+    background-color:green;
+    animation:ani;
+    animation-duration:1s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes ani {
+    0%{background-color: rgb(25, 230, 10);transform:translateY(-20px);}
+    100%{background-color:green;;}
+    
+}
+/* whatsapp icon */
+
+    /* About page starts */
+/* social icon */
+.form
+{
+    padding-left:100px;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+
+.banner
+{
+    background-image: url("/assest/img/Banner_1.jpg");
+    width:102%;
+    height:600px;
+    object-fit:fill;
+  background-size: cover;
+  overflow-x:hidden;
+}
+.card
+{
+    box-shadow: 0px 0px 10px gray;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover
+{
+    border-bottom: 4px solid green;
+    transform: translateY(-10px);
+}
+
+/* client section starts */
+.slider
+{
+ box-shadow: 0px 0px 10px 5px gray;
+   
+}
+/* client section ends */
+footer ul li a
+{
+color:rgb(167, 160, 160);
+}
+
+
+
+/* Research page starts */
+ .image img
+ {
+    border-radius:10px;
+    transition: all 0.4s ease-in-out;
+ }
+ .image img:hover
+ {
+    transform: translateY(-8px);
+    border-bottom:4px solid green;
+ }
+.card1
+{
+    border:0px;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px gray;
+    transition: all 0.4s ease-in-out;
+}
+.card1:hover
+{
+    transform: translateY(-8px);
+    border-bottom:4px solid green;
+}
+
+/* Research page ends */
+/* product section */
+.product1
+{
+    box-shadow: 0px 0px 10px gray;
+}
+
+/*  */
+.hover-class
+{
+    background-color:rgb(207, 202, 202);
+    color:black;
+    border-bottom: 500px solid red;
+    border:0px;
+}
+.hover-class:hover
+{
+background-color:green;
+}
+/*  */
+.N,.p,.h
+{
+    position: relative;
+    background-color:green;
+    width:50px;
+    height:50px;
+    text-align: center;
+    border-radius: 50%;
+    bottom: 25px;
+    color:white;
+   
+}
+/* product section ends */
+/* .bb
+{
+    background-color: rgb(247, 244, 244);
+} */
+
+/* service page starts */
+.serviceul li:first-child
+{
+    background-color: green;
+    color:white;
+}
+.serviceul li
+{
+   box-shadow: 0px 0px 5px gray;
+    margin-top:20px;
+    height:50px;
+    border-radius: 3px;
+    padding-top:10px;
+    padding-left:10px;
+    background-color: white;
+    
+}
+.Equity
+{
+    box-shadow: 0px 0px 10px gray;
+    padding-left:20px;
+    padding-right:20px;
+
+    padding-top:20px;
+    border-radius: 4px;
+}
+/* service page ends */
+/* rpm page starts */
+.contact
+{
+    border-radius:12px;
+    box-shadow: 0px 0px 10px gray;
+    border-bottom:4px solid green;
+    border-top:4px solid green;
+}
+.identify
+{
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 10px;
+    border-bottom:4px solid green;
+    border-top:4px solid green;
+}
+/* rpm page ends */
+
+/* Kyc page starts */
+.fullkyc
+{
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 10px;
+
+    border-bottom: 4px solid green;
+    border-top:4px solid green;
+}
+/* Kyc page ends */
+
+
+/* bank page statrts */
+.card11
+{
+    box-shadow:0px 0px 5px gray;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+    background-color: gainsboro;
+   
+}
+.card11:hover
+{
+    transform: translateY(-8px);
+    border-bottom: 4px solid green;
+}
+.img1
+{
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+}
+.img1:hover
+{
+    transform: translateY(-8px);
+    border-bottom: 4px solid green;
+}
+/* bank page Ends */
+/* modal form section starts */
+/* modal form section ends */
+.modal-content
+{
+    border-radius: 0px;
+    padding:0px;
+    margin:0px;
+    height: 500px;
+    color:white;
+    background-color: black;
+    opacity: .8;
+}
+.modal-body
+{
+    padding: 0px;
+    margin: 0px;
+}
+.form-controls
+{
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   border-bottom: 1px solid white;
+   border-radius: 0px;
+   background-color: black;
+}
+::placeholder
+{
+    font-size:18px;
+    color: white;
+    font-weight: bold;
+}
+#H
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#Sub
+{
+    width:120px;
+    height: 40px;
+    box-shadow: 0px 0px 10px gray;
+    border:0px;
+    background-color: rgb(255, 255, 255);
+    font-weight:500;
+    letter-spacing: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.scrolltop
+{
+    background-color:green;
+    width:50px;
+    height: 40px;
+    font-size:20px;
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    opacity: .7;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+}
+#bookdemo
+{
+    width:110px;
+    height: 30px;
+    background-color: rgb(1, 85, 1);
+    border:0px;
+    border-radius: 20px;
+    margin-top: 7px;
+    line-height: 12px;
+}

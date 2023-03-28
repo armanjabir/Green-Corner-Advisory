@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <title>Green Corner Advisory</title>
+  <link rel="stylesheet" href="./assest/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css">
+
+  <!-- jquery cdn -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <!-- it is the cdn link of jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js">
+
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css"></script>
+
+  <!-- jquery cdn -->
+
+
+</head>
+
+<body>
+  <div class="tophead">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 mx-auto">
+          <div class="backgroundhead">
+            <div class="row text-center">
+
+              <div class="col-3">
+                <ul class="list-unstyled d-flex justify-content-evenly">
+                  <li><a href="Javascript:void()"><i class="fa-brands fa-facebook text-success"></i></a></li>
+                  <li><a href="Javascript:void()"><i class="fa-brands fa-instagram text-success"></i></a></li>
+                  <li><a href="Javascript:void()"><i class="fa-brands fa-whatsapp text-success"></i></a></li>
+                  <li><a href="Javascript:void()"><i class="fa-brands fa-twitter text-success"></i></a></li>
+                  <li><a href="Javascript:void()"><i class="fa-solid fa-envelope text-success"></i></a></li>
+                  <li><a href="Javascript:void()"><i class="fa-brands fa-youtube text-success"></i></a></li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="d-flex justify-content-evenly list-unstyled ">
+                  <li><a href="" class="text-decoration-none text-dark"><i
+                        class="fa-solid fa-phone  text-success"></i>+916209424438</a></li>
+                  <li><a href="" class="text-decoration-none text-dark"><i
+                        class="fa-brands fa-whatsapp  text-success"></i>+916209424438</a></li>
+                  <li><a href="" class="text-decoration-none text-dark"><i
+                        class="fa-solid fa-envelope  text-success"></i>amd14832@gmail.com</a></li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <ul class="list-unstyled d-flex justify-content-evenly">
+                  <li><a href="" class="btn btn-success" id="login">Login</a></li>
+                  <li><a href="" class="btn btn-secondary" id="sinup">Singup</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- tophead ends -->
+  <div class="div" style="position:fixed;bottom:0px;left:5px;z-index: 1000000;">
+    <i class="fa-brands fa-whatsapp icon2"></i>
+  </div>
+
+  <!-- navbar starts -->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="javascript:void()">
+        <img src="assest/img/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="javascript:void()">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/About.html" title="About us">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/product.html">Product</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="javascript:void()" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu" style="border-bottom:4px solid green;border-radius:10px;width:200px;">
+              <li><a class="dropdown-item" href="/service.html" title="Service">Service</a></li>
+              <li><a class="dropdown-item" href="/kyc.html">KYC Form</a></li>
+              <li><a class="dropdown-item" href="/rpm.html">RPM</a></li>
+              <li><a class="dropdown-item" href="/complaint.html">Complaints</a></li>
+              <li><a class="dropdown-item" href="/bank.html">Bank Details</a></li>
+              <li><a class="dropdown-item" href="/career.html">Carreer</a></li>
+              <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="/contact.html">Contact</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-success text-light" data-bs-toggle="modal" data-bs-target="#myModal"id="bookdemo">Book Demo</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- navbar ends -->
+  <!-- popup form section starts -->
+
+  <!-- popup form section ends -->
+  <!-- slider section starts -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assest/img/Banner_1.jpg" class="d-block w-100  " alt="Banner_1">
+        <div class="carousel-caption">
+          <div class="row">
+            <div class="col-md-7">
+              <span class="px-3"> One Click access to independent</span>
+              <h1 class="fw-bold px-3">Research and Trading Opportunities</h1>
+              <a href="" class="btn btn-success mx-3"id="hire">Hire An Expert</a>
+            </div>
+            <div class="col-md-5" style="position: relative;bottom:30px;">
+              <img src="/assest/img/stock-clock.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/assest/img/Banner_2.jpg" class="d-block w-100" alt="Banner_2">
+        <div class="carousel-caption">
+          <div class="row">
+            <div class="col-md-7">
+              <span class="px-3"> One Click access to independent</span>
+              <h1 class="fw-bold px-3">Research and Trading Opportunities</h1>
+              <a href="" class="btn btn-success mx-3">Hire An Expert</a>
+            </div>
+            <div class="col-md-5" style="position: relative;bottom:30px;">
+              <img src="/assest/img/stock-clock.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/assest/img/Banner_3.jpg" class="d-block w-100" alt="Banner_3">
+        <div class="carousel-caption">
+          <div class="row">
+            <div class="col-md-7">
+              <span class="px-3"> One Click access to independent</span>
+              <h1 class="fw-bold px-3">Research and Trading Opportunities</h1>
+              <a href="" class="btn btn-success rounded mx-3">Hire An Expert</a>
+            </div>
+            <div class="col-md-5" style="position: relative;bottom:30px;">
+              <img src="/assest/img/stock-clock.png" alt="" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- slider section ends -->
+
+  <!-- Marquee starts -->
+  <marquee behavior="Alternatively" direction="">Investment & trading in securities market is always subjected to market risks, past
+    performance is not a guarantee of future performance. Green Corner Advisory (Investment Advisor) do not provide any
+    Assured/ Guaranteed Return/ Profit services, any Profit Sharing services, and Services which are not mentioned in
+    company website, Please beware of fraud calls/sms.
+  </marquee>
+  <!-- Marquee Ends -->
+
+
+  <!-- About section starts -->
+  <div class="about py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+
+          <img src="/assest/img/research.png" alt="" class="img-fluid">
+
+        </div>
+        <div class="col-lg-6">
+          <h6 class="text-success">Who We Are</h6>
+          <h5 class="fw-bold">ABOUT US</h5>
+          <div class="hrline" style="border-bottom:2px solid green;width:40px"></div>
+          <p style="color:rgb(131, 128, 124);font-size:14px" class="pt-2">Green Corner Advisory is the symbol of trust,
+            prosperity and courage. We enable scalable growth by leveraging stock market intelligence and analytics,
+            exercising judicious investment with risk appetite, operating effectively to deliver business outcome.</p>
+          <div class="row">
+
+            <div class="col-sm-6 mt-2">
+              <div class="about1 text-center py-4">
+                <i class="fa-solid fa-chart-line text-success"></i>
+                <h6 class="fw-bold text-dark">Mission</h6>
+                <p style="font-size:16px" class="px-3">To become the most preferred and most trusted, globally
+                  recognized stock market advisors.</p>
+              </div>
+            </div>
+
+            <div class="col-sm-6 mt-2">
+              <div class="about1 text-center py-4">
+                <i class="fa-solid fa-bullseye text-success"></i>
+                <h6 class=" fw-bold text-dark">Vision</h6>
+                <p style="font-size:16px" class="px-2">To provide low risk and high returns on customers investments in
+                  good financial products and services
+                  globally.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- About section ends -->
+
+
+  <!-- Why us section starts -->
+
+  <div class="container-fluid whysection mt-3 mb-5 py-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h6 class="text-success text-center">Why</h6>
+        <h4 class="fw-bold text-center">WHY US</h4>
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <div class="whyus text-center py-4 mt-2">
+            <i class="fa-regular fa-user text-success mb-2" style="font-size:45px"></i>
+            <p>We have a customer-centric approach to solve all the investment-related queries</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="whyus text-center  py-4 mt-2">
+            <i class="fa-solid fa-chart-simple text-success" style="font-size:35px"></i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque dignissimos unde quos sed repellendus
+              suscipit libero?</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="whyus text-center  py-4 mt-2">
+            <i class="fa-solid fa-brain text-success" style="font-size:35px"></i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque dignissimos unde quos sed repellendus
+              suscipit libero?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Why us section ends -->
+
+  <!-- who section starts -->
+
+  <div class="container-fluid mb-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h6 class="text-success text-center fw-bold">Who Is</h6>
+        <h4 class="text-center fw-bold">WHO IS THIS FOR</h4>
+      </div>
+    </div>
+    <div class="container mt-3 mb-3">
+      <div class="row">
+        <div class="col-lg-4 ">
+          <div class="img mb-5">
+            <img src="/assest/img/graph.jpg" alt="" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="content py-4 px-5">
+            <ul>
+              <li class="pt-2">Clients seeking low risk on their investment made</li>
+              <li class="pt-2">Clients who are not able to manage their funds on their own.?</li>
+              <li class="pt-2">Clients who require short and long term investment products.</li>
+              <li class="pt-2">Clients expecting good returns on their investments in less time span. </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- who section ends -->
+
+  <!-- offer section starts -->
+
+
+  <div class="container-fluid offtersection mt-3 mb-5 py-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h6 class="text-success text-center fw-bold">Offer</h6>
+        <h4 class="fw-bold text-center">WHAT WE OFFER</h4>
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="offer text-center py-4">
+
+            <i class="fa-solid fa-money-bill text-success icon"></i>
+            <h6 class="fw-bold mt-3">EQUITY</h6>
+            <p class="pb-4">Equity here refers to cash and derivative stocks and indices which are traded on national
+              exchanges of
+              India. Investment in equity market is preffered by both traders and investors.
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="offer text-center  py-4">
+            <i class="fa-solid fa-chart-column text-success icon"></i>
+            <h6 class="fw-bold mt-4">MCX COMMODITY</h6>
+            <p class="pb-">MCX refers to Multi Commodity Exchange in which Bullions (Gold & Silver), Base Metals
+              (Aluminium, Copper,
+              Lead, Nickel & Zinc) and Energy (Crude Oil & Natural Gas) is traded</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="offer text-center  py-4">
+            <i class="fa-solid fa-file-lines text-success icon"></i>
+            <h6 class="fw-bold mt-2">PMS</h6>
+            <p>PMS here refers to Profile Management Service which is an exclusive product designed for the customers
+              who are busy in their day to day activities and require core investment assistance on time to time basis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="offer text-center py-4">
+            <i class="fa-solid fa-chart-bar text-success icon"></i>
+            <h6 class="fw-bold mt-2">NCDEX</h6>
+            <p class="pb-5">NCDEX refers to National Commodity and Derivatives Exchange in which agricultural commodity
+              derivatives
+              such as Chana, Soyabean, Refined Soya Oil, Dhaniya, Jeera etc is traded.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="offer text-center  py-4">
+            <i class="fa-solid fa-circle-dollar text-success"></i>
+            <h6 class="fw-bold">FOREX</h6>
+            <p>FOREX here refers to Foreign Exchange which basically is a product designed for traders who trade global
+              CFD's of major currencies such as EURUSD, GBPUSD, USDJPY, AUDUSD, USDCAD, NZDUSD & USDCHF and commodities
+              such as Gold, Silver & Crude Oil.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="offer text-center  py-4">
+            <i class="fa-solid fa-indian-rupee-sign text-success icon"></i>
+
+            <h6 class="fw-bold mt-2">CURRENCY</h6>
+            <p class="pb-5">Currency here refers to the currency derivatives of USDINR, EURINR, GBPINR, JPYINR, EURUSD,
+              GBPUSD,
+              USDJPY which is traded and hedged in national stock exchanges of India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- offer section ends -->
+
+  <!-- Work section starts -->
+
+
+
+  <div class="container-fluid whysection mt-3 mb-5 py-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h6 class="text-success text-center fw-bold">Work</h6>
+        <h4 class="fw-bold text-center">HOW IT WORKS</h4>
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 mt-2">
+          <div class="work card text-center py-4">
+            <i class="fa-solid fa-clock text-success icon"></i>
+            <p class="pt-4 pb-2">Time and tested signal generation models</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-2">
+          <div class="work card text-center  py-4">
+            <i class="fa-solid fa-headset text-success icon"></i>
+            <p class="pt-4 pb-2">Client support and query resolution on a real time basis</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-2">
+          <div class="work card text-center  py-4">
+            <i class="fa-solid fa-magnifying-glass-chart text-success icon"></i>
+            <p class="pt-4 pb-2">Dedicated NISM Certified Research Team</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-2">
+          <div class="work card text-center  py-4">
+            <i class="fa-solid fa-cube text-success icon"></i>
+
+            <p class="pt-2">Customized products as per risk profiling and return requirements of clients</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Work section ends -->
+
+
+  <!-- Client section starts -->
+
+  <div class="container-fluid Client pb-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h6 class="text-center fw-bold text-success">Clients</h6>
+        <h4 class="text-center fw-bold">THEY TRUSTED US</h4>
+      </div>
+    </div>
+    <div class="container mt-4 pt-3">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+
+                <div class="slider1 text-center position-relative">
+                  <img src="/assest/img/Logo1.png" alt="" class="">
+                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum architecto enim
+                    veniam ex quaerat
+                    qui aliquam sed saepe unde provident libero, repudiandae modi a dolorem odio cupiditate mollitia quo
+                    doloribus?</p>
+                  <span class="text-uppercase mt-3 fs-6">Prashant Kumar</span> <br>
+                  <span><i class="fa fa-map-location color-green text-success"></i>"New Delhi"</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="slider1 text-center">
+                  <img src="/assest/img/Logo1.png" alt="">
+                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum architecto enim
+                    veniam ex quaerat
+                    qui aliquam sed saepe unde provident libero, repudiandae modi a dolorem odio cupiditate mollitia quo
+                    doloribus?</p>
+                  <span class="text-uppercase mt-3 fs-6">Prashant Kumar</span> <br>
+                  <span><i class="fa fa-map-location text-success"></i>"New Delhi"</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="slider1 text-center">
+                  <img src="/assest/img/Logo1.png" alt="">
+                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum architecto enim
+                    veniam ex quaerat
+                    qui aliquam sed saepe unde provident libero, repudiandae modi a dolorem odio cupiditate mollitia quo
+                    doloribus?</p>
+                  <span class="text-uppercase mt-3 fs-6">Prashant Kumar</span> <br>
+                  <span><i class="fa fa-map-location text-success"></i>"New Delhi"</span>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:blue"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:blue"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Client section ends -->
+
+
+
+  <!-- Need help section starts -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h6 class="text-success text-center fw-bold">Need Help?</h6>
+        <h4 class="text-center fw-bold">GET CALL BACK FROM OUR MARKET EXPERTS</h4>
+      </div>
+    </div>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-lg-5 col-md-12">
+          <div class="contact-info pt-3 pb-3 px-3">
+            <div class="d-flex">
+              <div class="icon">
+
+                <a href=""> <i class="fa-solid fa-location-pin mt-3"></i></a>
+              </div>
+              <div class="text">
+                <h5>LOCATION</h5>
+                <span>Green Corner Advisory,Sharjapur Benglore- <br> 562125</span>
+              </div>
+            </div>
+            <div class="d-flex mt-3">
+              <div class="icon">
+                <a href=""><i class="fa-solid fa-envelope mt-3"></i></a>
+
+              </div>
+              <div class="text">
+                <h5>EMAIL</h5>
+                <span> amd14832@gmail.com</span>
+              </div>
+            </div>
+            <div class="d-flex mt-3">
+              <div class="icon">
+                <a href=""><i class="fa-solid fa-mobile mt-3"></i></i></a>
+
+              </div>
+              <div class="text">
+                <h5>CALL</h5>
+                <span>+916209424438</span>
+              </div>
+            </div>
+            <div class="d-flex mt-3">
+              <div class="icon">
+                <a href=""><i class="fa-brands fa-whatsapp mt-3"></i></i></a>
+
+              </div>
+              <div class="text">
+                <h5>WHATSAPP</h5>
+                <span>+916209424438</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12">
+          <form action="" id="form1">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 form-group mt-4">
+                  <input type="text" class="form-control input" placeholder="Your Name">
+                </div>
+                <div class="col-md-6 form-group mt-4">
+                  <input type="email" class="form-control input" placeholder="Your Email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group mt-4">
+                  <input type="tel" class="form-control input" placeholder="Your Number">
+                </div>
+                <div class="col-md-6 form-group mt-4">
+                  <input type="text" class="form-control input" placeholder="Your Service">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group mt-4">
+                  <textarea name="" id="textarea" cols="2" rows="4" placeholder="Message"
+                    class="form-control"></textarea>
+                </div>
+                <div class="col-md-12 text-center">
+                  <button id="sub">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Need help section ends -->
+
+
+  <!-- footer section starts -->
+  <footer class="bg-dark mt-5 mb-3 pt-5 text-light pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="/assest/img/logo.png" alt="" class="text-success px-2">
+          <p class="px-2 mt-2"style="font-size:14px">Green Corner Advisory is the symbol of trust, prosperity and courage.</p>
+          <h4 class="px-2 mt-4 mb-3"style="font-size:18px">Follow us on</h4>
+
+          <ul class="list-unstyled d-flex">
+            <li class=""><a href=""><i class="fa-brands fa-facebook icon1"></i></a></li>
+            <li class=""><a href=""><i class="fa-brands fa-instagram  icon1"></i></a></li>
+            <li class=""><a href=""><i class="fa-brands fa-youtube  icon1"></i></a></li>
+            <li class=""><a href=""><i class="fa-brands fa-twitter  icon1"></i></a></li>
+            <li class=""><a href=""><i class="fa-brands fa-linkedin  icon1"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h4>Useful Links</h4>
+          <ul class="list-unstyled"style="font-size:14px">
+            <li class="mt-2"><span>	&#11166; </span><a href="" class="text-decoration-none text-light">Home</a></li>
+            <li class="mt-2"><span>	&#11166; </span><a href="" class="text-decoration-none text-light">About</a></li>
+            <li class="mt-2"><span>	&#11166; </span><a href="" class="text-decoration-none text-light">Services</a></li>
+            <li class="mt-2"><span>	&#11166; </span><a href="" class="text-decoration-none text-light">Research</a></li>
+            <li class="mt-2"><span>	&#11166; </span><a href="" class="text-decoration-none text-light">Disclaimer</a></li>
+            <li class="mt-2"><span>	&#11166; </span><a href="/privacy.html" class="text-decoration-none text-light">Privacy Policy</a></li>
+
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h4>Our Services</h4>
+          <ul class="list-unstyled px-2"style="font-size:14px">
+            <li><span>	&#11166; </span><a href="" class="text-decoration-none text-light">Equity cash</a></li>
+            <li class="mt-2"><span>	&#11166; </span><a href="" class="text-decoration-none text-light">Stoke Options</a></li>
+            <li class="mt-2"><span>	&#11166; </span><a href="" class="text-decoration-none text-light">Bank Nify</a></li>
+            <li class="mt-2"><span>	&#11166; </span><a href="" class="text-decoration-none text-light">Stoke Future</a></li>
+            <li class="mt-2"><span>	&#11166; </span><a href="" class="text-decoration-none text-light">Commodity</a></li>
+            <li class="mt-2"><span>	&#11166; </span><a href="" class="text-decoration-none text-light">Deliver class</a></li>
+
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+
+          <h4>Contact</h4>
+          <ul class="list-unstyled px-2"style="font-size:14px">
+            <li class="mt-2">
+              <i class="fa-solid fa-location-dot"></i>
+              Green Corner Advisory ,Sharjapur, Banglore-562125</li>
+            <li class="mt-2"><a href="" class="text-decoration-none text-light">
+              <i class="fa-sharp fa-solid fa-phone"></i>
+              +91 6209424438</a></li>
+            <li class="mt-2"><a href="" class="text-decoration-none text-light">
+              <i class="fa-solid fa-envelope"></i>
+              amd14832@gmail.com</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+  <!-- footer section ends -->
+
+  <!-- mini footer section starts -->
+  <div class="col-12">
+    <p class="text-center"> &copy;Copyright 2022 <span class="text-success fw-bold"> Green Corner Advisory</span> All
+      Rights Reserved</p>
+  </div>
+  <!-- mini footer section ends -->
+
+  <!-- accordion section -->
+
+  <!-- modal form section starts -->
+  <!-- Button trigger modal -->
+
+
+
+  <!-- modal using css and js starts-->
+  <!-- modal using css and js ends-->
+
+
+  
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+
+        <div class="text-end">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          <h3 class="text-center">BOOK A DEMO NOW</h3>
+          <p class="ps-5 mt-4">Experience Green Corner Advisory products with a personalized demo</p>
+          <p class="ps-5">Fill in your details below and we will contact you for a personalized presentation at a time
+            and venue convenient to you.</p>
+          <p class="ps-5">Alternatively you can call on +919122442032 to speak to a sales specialist now. The demos are
+            not charged.</p>
+
+          <form action=""onsubmit="return formvalidation()">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-lg-4 form-group mt-2">
+                  <input type="text"id="name" placeholder="Name" class="form-control form-controls">
+                  <span id="nerr"class="text-danger"></span>
+                </div>
+                <div class="col-lg-4 form-group mt-2">
+                  <input type="tel" name="" id="mobile" placeholder="Mobile Number" class="form-controls form-control">
+                <span id="merr"class="text-danger"></span>
+                </div>
+                <div class="col-lg-4 form-group mt-2">
+                  <input type="text"id="city" placeholder="City" class="form-control form-controls">
+                 <span id="cerr"class="text-danger"></span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 form-group mt-2">
+                  <input type="text"id="state" placeholder="State" class="form-control form-controls">
+                <span id="serr"class="text-danger"></span>
+                </div>
+                <div class="col-lg-4 form-group mt-2">
+                  <input type="text"id="pin" placeholder="PinCode" class="form-control form-controls">
+                  <span id="perr"class="text-danger"></span>
+                </div>
+                <div class="col-lg-4 form-group mt-4">
+                  <select name="" id="H" class="form-control">
+                    <option value="">Equity cash</option>
+                    <option value="">Equity Feture</option>
+                    <option value="">Equity option</option>
+                    <option value="">MCX</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row mt-3 ms-3">
+                <div class="col-lg-12">
+                  <input type="checkbox">
+                  <span style="color:green">By signing up you agree to being contact by Green Corner Advisory through
+                    sms, email or whatsapp. Any information you give us is held with the utmost care and security. Trade
+                    Show Advisory does not sell, rent or loan any identifiable information of customers or prospects to
+                    any third party.</span>
+                </div>
+                <div class="col-lg-12 mt-4">
+                  <div>
+                    <button id="Sub" class="mb-4">SUBMIT</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+
+        </div>
+
+        <!-- Modal footer -->
+
+
+      </div>
+    </div>
+  </div>
+  <!-- modal ends -->
+<!-- scrolltop -->
+<div class="scrolltop"onclick="topFunction()">
+  &#129049;
+</div>
+<!-- scrolltop -->
+
+
+
+
+  <script src="/assest/js/script.js"></script>
+</body>
+
+</html>
